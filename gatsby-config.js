@@ -8,5 +8,14 @@ module.exports = {
   siteMetadata: {
     title: `sylvia liu`,
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        cssLoaderOptions: {
+          camelCase: false,
+        },
+      },
+    },
+  ],
 }

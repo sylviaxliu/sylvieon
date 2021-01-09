@@ -1,8 +1,10 @@
 import React from "react"
+import { graphql, Link } from "gatsby"
+
 import Header from "../components/header"
 import Layout from "../components/layout"
-import Navigation from "../components/navigation"
-import { graphql, Link } from "gatsby"
+
+import "../styles/main.scss"
 
 export default function Home({ data }) {
   return (

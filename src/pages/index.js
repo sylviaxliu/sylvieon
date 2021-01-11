@@ -4,15 +4,28 @@ import { graphql, Link } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
 import Title from "../components/Title"
+import "../styles/main.scss"
 
 export default function Home({ data }) {
   return (
     <Layout>
       <div class="titlePage">
 
-        <Title>{data.site.siteMetadata.title}</Title>
-      
-        <p>hello this will eventually be my website</p>
+        <Title>
+          <div id="title">
+            Hi<span id="accent">.</span> I'm Sylvia<span id="accent">.</span>
+
+            <div id="subtitle">
+              This will be something short about me to capture your attention maybe. Hopefully this will be fine and not break.
+            </div>
+
+            <Link to="/about" id="button">
+              <span class="text">discover more</span>
+              <div class="overlay"></div>
+            </Link>
+          </div>
+        </Title>
+        
 
       </div>
     </Layout>

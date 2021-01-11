@@ -2,9 +2,22 @@
 
 #title {
     position: absolute;
-    top: 40%;
-    transform: translate-y(-50%);
-    font-size: 3rem;
+    top: 35%;
+    left: 50%;
+    height: auto;
+    transform: translate(-50%);
+    font-size: 3.5rem;
     font-family: 'Bodoni Moda', serif;
-    text-transform: uppercase;
+    text-transform: lowercase;
+}
+
+#subtitle {
+    max-width: 100%;
+    margin: 3% 0 0 0;
+    font-family: 'Roboto', serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-transform: none;
+    line-height: 120%;
+    letter-spacing: 10%;
 }

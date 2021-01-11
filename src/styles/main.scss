@@ -1,9 +1,63 @@
 @import "https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto&display=swap";
 $font-stack: 'Roboto', sans-serif;
-$primary-color: #333;
+$primary-color: #39393A;
+$secondary-color: #659157;
+$accent-color: #f3c969;
+$background-color: #e9f1f7;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
   text-align: center;
+  background-color: $background-color;
+}
+
+body a {
+  color: $secondary-color;
+}
+
+#accent {
+  color: $secondary-color;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $secondary-color;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease; 
+  z-index: 0;
+}
+
+#button {
+  position: relative;
+  padding: 3%;
+  margin: 0 5%;
+  width: 100%;
+  height: auto;
+  font: 100% $font-stack;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  border: 1px solid $secondary-color;
+  letter-spacing: 0.1rem;
+  transition: 0.5s ease;
+
+  span {
+    z-index: 999;
+  }
+
+  &:hover {
+    color: $background-color;
+  }
+
+  &:hover .overlay {
+    width: 100%;
+    z-index: 0;
+  }
 }

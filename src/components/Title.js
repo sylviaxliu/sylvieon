@@ -3,6 +3,6 @@ import "../styles/title.scss"
 
 export default function Title({ children }) {
     return (
-        <h1 id="title"> { children } </h1>
+        <h1> { children } </h1>
     )
 }

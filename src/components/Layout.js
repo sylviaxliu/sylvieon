@@ -12,8 +12,9 @@ const ListLink = props => (
 export default function Layout({ children }) {
     return (
         <div style={{ margin: `3rem auto`, maxWidth: 650}}>
-            <div id="navigation"><Link class="homeLink" to="/" style={{ float: `left`}}>sylvia</Link>
-            <ul class="navigation" style={{ listStyle: `none`, float: `right` }}>
+            <div id="navigation">
+              <Link id="homeLink" to="/" style={{ float: `left`}}>sylvia</Link>
+            <ul id="tabs" style={{ listStyle: `none`, float: `right` }}>
                 <ListLink to="/about/">About</ListLink>
                 <ListLink to="/projects/">Projects</ListLink>
                 <ListLink to="/contact/">Contact</ListLink>

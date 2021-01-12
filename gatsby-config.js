@@ -5,9 +5,12 @@
  */
 
 module.exports = {
+  pathPrefix: "/sylvieon",
+
   siteMetadata: {
     title: `sylvia liu`,
   },
+  
   plugins: [
     {
       resolve: `gatsby-plugin-sass`,

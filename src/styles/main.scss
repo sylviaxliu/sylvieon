@@ -20,6 +20,11 @@ body a {
   color: $secondary-color;
 }
 
+#container {
+  position: absolute;
+  margin-top: 3rem;
+}
+
 .overlay {
   position: absolute;
   bottom: 0;

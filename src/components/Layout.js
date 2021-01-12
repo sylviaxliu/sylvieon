@@ -21,7 +21,9 @@ export default function Layout({ children }) {
             </ul>
             </div>
 
-            {children}
+            <div id="container">
+              {children}
+            </div>
         </div>
     )
 }

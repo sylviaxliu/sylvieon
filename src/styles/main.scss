@@ -22,7 +22,10 @@ body a {
 
 #container {
   position: absolute;
+  width: 650px;
   margin-top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .overlay {

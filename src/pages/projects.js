@@ -9,7 +9,9 @@ export default function Projects() {
       <Layout>
 
         <div class="projects">
-          <Header>projects</Header>
+          <Header>
+            projects<span id="accent">.</span> 
+          </Header>
 
           <Project 
             name="hello" 

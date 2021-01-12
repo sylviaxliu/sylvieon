@@ -10,8 +10,12 @@ export default function Contact() {
     return (
         <Layout>
             <div class="contact">
-            <h2>contact</h2>
+            <Header>
+                Contact<span id="accent">.</span> 
+            </Header>
+
             <p>like what you see? contact me (please)</p>
+            
             <ContactLink to="email" url="/" />
         </div>
         </Layout>

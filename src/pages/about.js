@@ -7,7 +7,10 @@ export default function About() {
     return (
       <Layout>
         <div class="about">
-          <Header>about</Header>
+          <Header>
+            about<span id="accent">.</span> 
+          </Header>
+
           <p>hello!! I'm Sylvia, a sophomore majoring in Computer Science at Purdue University. idk if it's possible but i'd like to do a concentration in machine intelligence and security. in my free time, i play video games or take naps.</p>
 
           <h2>experience</h2>
@@ -15,6 +18,7 @@ export default function About() {
           
           <h2>extra curriculars</h2>
           <p>akdphi, sase, mgc, asub</p>
+          
         </div>
       </Layout>
     )

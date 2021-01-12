@@ -11,7 +11,7 @@ const ListLink = props => (
 
 export default function Layout({ children }) {
     return (
-        <div style={{ margin: `3rem auto`, maxWidth: 650}}>
+        <div style={{ margin: `3rem auto`, maxWidth: 650, position: 'relative', }}>
             <div id="navigation">
               <Link id="homeLink" to="/" style={{ float: `left`}}>sylvia</Link>
             <ul id="tabs" style={{ listStyle: `none`, float: `right` }}>

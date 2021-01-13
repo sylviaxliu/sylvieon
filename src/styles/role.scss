@@ -1,0 +1,20 @@
+@import 'main.scss';
+
+#role {
+    display: inline-block;
+    margin: 0 3rem;
+    width: 100%;
+    height: auto;
+    text-align: left;
+
+    .name {
+        display: inline-block;
+    }
+    
+    .date {
+        font-size: 0.8rem;
+    }
+    
+    .description {
+    }
+}

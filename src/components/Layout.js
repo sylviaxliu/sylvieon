@@ -15,7 +15,7 @@ export default function Layout({ children }) {
             <div id="navigation">
               <Link id="homeLink" to="/" style={{ float: `left`}}>sylvia</Link>
             <ul id="tabs" style={{ listStyle: `none`, float: `right` }}>
-                <ListLink to="/about/">About</ListLink>
+                <ListLink to="/about/">About</ListLink> 
                 <ListLink to="/projects/">Projects</ListLink>
                 <ListLink to="/contact/">Contact</ListLink>
             </ul>

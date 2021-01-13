@@ -13,7 +13,9 @@ export default function Home({ data }) {
 
         <Title>
           <div id="title">
-            Hi<span id="accent">.</span> I'm Sylvia<span id="accent">.</span>
+            <span style={{ letterSpacing: `-0.05rem` }}> 
+              Hi<span id="accent">.</span> I'm Sylvia<span id="accent">.</span>
+            </span>
 
             <div id="subtitle">
               This will be something short about me to capture your attention maybe. Hopefully this will be fine and not break.

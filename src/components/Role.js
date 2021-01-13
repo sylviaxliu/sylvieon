@@ -7,9 +7,6 @@ export default function Role( props ) {
             <div class="name">
                 { props.name }
             </div>
-            <div class="date">
-                { props.startDate } to { props.endDate }
-            </div>
             <p class="description">
                 { props.description }
             </p>

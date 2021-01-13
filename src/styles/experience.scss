@@ -12,14 +12,18 @@
         font-size: 1.1rem;
     }
     
-    .date {
+    .date, .company {
         font-style: italic;
         font-size: 0.8rem;
         margin-bottom: 0.5rem;
     }
     
-    .role {
-    
+    .date {
+        float: left;
+    }
+
+    .company {
+        font-style: italic;
     }
     
     .description {

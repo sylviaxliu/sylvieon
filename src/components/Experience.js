@@ -10,8 +10,8 @@ export default function Experience( props ) {
             <div class="date">
                 {props.startDate} to {props.endDate}
             </div>
-            <div class="role">
-                {props.role}
+            <div class="company">
+                {props.company}
             </div>
             <div class="description">
                 {props.description}

@@ -12,7 +12,7 @@ export default function About() {
             About me<span id="accent">.</span> 
           </Header>
 
-          <p>hello!! I'm Sylvia, a sophomore majoring in Computer Science at Purdue University. idk if it's possible but i'd like to do a concentration in machine intelligence and security. in my free time, i play video games or take naps.</p>
+          <p>hello!! I'm Sylvia, a sophomore majoring in Computer Science at Purdue University. i'm doing a concentration in machine learning and security but making websites is really fun. i spend too much money on coffee.</p>
 
           <h2 style={{ textAlign: `right` }}>experience</h2>
           <p>

@@ -1,0 +1,29 @@
+@import './main.scss';
+
+#experience {
+    width: 100%;
+    height: auto;
+    text-align: right; 
+    margin: 1.5rem 0;
+    padding: 0 0 1.5rem 0;
+    background-color: $accent-color;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.date {
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+
+}
+
+.description {
+   
+}
+

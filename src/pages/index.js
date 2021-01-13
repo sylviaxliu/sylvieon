@@ -21,7 +21,7 @@ export default function Home({ data }) {
               This will be something short about me to capture your attention maybe. Hopefully this will be fine and not break.
             </div>
 
-            <Link to="/about" id="button">
+            <Link to="sylvialiu.dev/about" id="button">
               <span class="text">discover more</span>
               <div class="overlay"></div>
             </Link>

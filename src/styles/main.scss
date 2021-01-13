@@ -28,19 +28,6 @@ body a {
   transform: translateX(-50%);
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: $secondary-color;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: 0.5s ease; 
-  z-index: 0;
-}
-
 #button {
   position: relative;
   padding: 3%;
@@ -62,10 +49,24 @@ body a {
 
   &:hover {
     color: $background-color;
+    background-color: $secondary-color;
   }
 
   &:hover .overlay {
-    width: 100%;
+    width: 0;
     z-index: 0;
   }
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $secondary-color;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease; 
+  z-index: 0;
 }

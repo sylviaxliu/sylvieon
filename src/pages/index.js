@@ -13,7 +13,7 @@ export default function Home({ data }) {
 
         <Title>
           <div id="title">
-            <span style={{ letterSpacing: `-0.05rem` }}> 
+            <span style={{ letterSpacing: `-0.1rem` }}> 
               Hi<span id="accent">.</span> I'm Sylvia<span id="accent">.</span>
             </span>
 
@@ -21,7 +21,7 @@ export default function Home({ data }) {
               This will be something short about me to capture your attention maybe. Hopefully this will be fine and not break.
             </div>
 
-            <Link to="sylvialiu.dev/about" id="button">
+            <Link to="/about" id="button">
               <span class="text">discover more</span>
               <div class="overlay"></div>
             </Link>

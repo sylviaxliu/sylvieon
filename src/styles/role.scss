@@ -2,15 +2,20 @@
 
 #role {
     display: inline-block;
-    margin: 0 3rem;
+    margin: -1.2rem 0;
     width: 100%;
     height: auto;
     text-align: left;
 
     .name {
         display: inline-block;
+        padding-left: 3rem;
     }
     
-    .description {
+    .date {
+        font-style: italic;
+        float: right;
+        font-size: 0.8rem;
+        margin-top: 0rem;
     }
 }

@@ -36,29 +36,29 @@ export default function About() {
           <p>
             <Extracurricular name="alpha Kappa Delta Phi International Sorority, Inc." />
               <Role name="Treasurer"
-                description="probably bullet points right"
+                date="Jan. 2021 to Present"
               />
               <Role name="Secretary"
-                description="this is what i did in this role"
+                date="May 2020 to Dec. 2020"
               />
               <Role name="Fundraising Chair"
-                description="this is what i did in this role"
+                date="May 2020 to Present"
               />
             <Extracurricular name="Purdue Asian Student Union Board" />
               <Role name="Fundraising Chair"
-                description="probably bullet points right"
+                date="May 2020 to Present"
               />
             <Extracurricular name="Purdue Multicultural Greek Council" />
               <Role name="Treasurer"
-                description="probably bullet points right"
+                date="May 2020 to Present"
               />
             <Extracurricular name="Society for Asian Scientists and Engineers" />
               <Role name="General Member"
-                description="probably bullet points right"
+                date="Aug. 2019 to Present"
               />
             <Extracurricular name="Asian American Association" />
               <Role name="General Member"
-                description="probably bullet points right"
+                date="Aug. 2020 to Present"
               />
           </p>
           

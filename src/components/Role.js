@@ -7,9 +7,9 @@ export default function Role( props ) {
             <div class="name">
                 { props.name }
             </div>
-            <p class="description">
-                { props.description }
-            </p>
+            <div class="date">
+                { props.date }
+            </div>
         </div>
     )
 }

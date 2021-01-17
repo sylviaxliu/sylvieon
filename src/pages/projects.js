@@ -15,12 +15,21 @@ export default function Projects() {
 
           <Project 
             name="hello" 
+            createdDate="date goes here"
             description="this will be the project description" 
-            githubLink="/"
+            githubLink="https://github.com/sylviaxliu/sylvieon"
           />
           
           <Project
             name="another project"
+            createdDate="date goes here"
+            description="this will be another project because i have more than two i've worked on yes"
+            githubLink="/"
+          />
+
+          <Project
+            name="another project"
+            createdDate="date goes here"
             description="this will be another project because i have more than two i've worked on yes"
             githubLink="/"
           />

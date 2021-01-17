@@ -7,6 +7,7 @@ export default function Project(props) {
         <div id="project">
             <h1>{ props.name }</h1>
             <p>{ props.createdDate }</p>
+            <p>{ props.codedIn }</p>
             <p>{ props.description }</p>
             <Link to={props.githubLink} id="button">github</Link>
         </div>

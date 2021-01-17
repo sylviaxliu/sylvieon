@@ -13,23 +13,26 @@ export default function Projects() {
             projects<span id="accent">.</span> 
           </Header>
 
+          <Project
+            name="aKDPhi Website"
+            createdDate="Jan. 2020"
+            codedIn="React, SCSS"
+            description="Mock website for sorority"
+            githubLink="/"
+          />
+
           <Project 
-            name="hello" 
-            createdDate="date goes here"
-            description="this will be the project description" 
+            name="boof" 
+            createdDate="Jan. 2021"
+            codedIn="React"
+            description="A game" 
             githubLink="https://github.com/sylviaxliu/sylvieon"
           />
           
           <Project
-            name="another project"
-            createdDate="date goes here"
-            description="this will be another project because i have more than two i've worked on yes"
-            githubLink="/"
-          />
-
-          <Project
-            name="another project"
-            createdDate="date goes here"
+            name="Airplane Reservation System"
+            createdDate="Dec. 2019"
+            codedIn="Java"
             description="this will be another project because i have more than two i've worked on yes"
             githubLink="/"
           />

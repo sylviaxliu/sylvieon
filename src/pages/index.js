@@ -18,12 +18,11 @@ export default function Home({ data }) {
             </span>
 
             <div id="subtitle">
-              This will be something short about me to capture your attention maybe. Hopefully this will be fine and not break.
+              computer science student & coffee enthusiatist 
             </div>
 
-            <Link href="/about" id="button">
-              <span class="text">discover more</span>
-              <div class="overlay"></div>
+            <Link href="/about" id="button1">
+              <span class="text">hire me</span>
             </Link>
           </div>
         </Title>

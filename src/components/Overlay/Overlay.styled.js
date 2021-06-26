@@ -8,8 +8,8 @@ export const StyledOverlay = styled.nav`
   top: 0;
   left: 0;
   background-color: black;
-  transition: all 0.3s linear;
+  transition: opacity 0.3s linear;
   opacity: ${({ open }) => open ? '0.5' : '0'};
-  z-index: 2;
+  z-index: ${({ open }) => open ? '2' : '0'};
   
 `;

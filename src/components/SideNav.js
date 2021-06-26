@@ -5,6 +5,8 @@ import Menu from "./Menu"
 import Overlay from "./Overlay"
 import "../styles/sidenav.scss"
 
+
+
 export default function SideNav() {
     const dropdownRef = useRef(null);
     const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);

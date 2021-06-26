@@ -23,7 +23,7 @@ const Menu = ({ open }) => {
         </a>
       
       <div class="links-container">
-        <a href="/">
+        <a href="../../sylvia-liu-resume.pdf" target="blank">
             <AttachFileIcon fontSize="small" />
         </a>
         <a href="sylviaxliu@yahoo.com">

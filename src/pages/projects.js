@@ -1,42 +1,50 @@
 import React from "react"
 import Header from "../components/Header"
 import Layout from "../components/Layout"
-import Project from "../components/Project"
+import ContentCard from "../components/ContentCard"
 import { graphql, Link } from "gatsby"
+import "../styles/project.scss"
+import Grid from '@material-ui/core/Grid';
 
 export default function Projects() {
     return (
       <Layout>
 
-        <div class="projects">
-          <Header>
-            projects<span id="accent">.</span> 
-          </Header>
+        <Header>
+          projects<span id="accent">.</span> 
+        </Header>
 
-          <Project
+        <Grid container spacing={2} alignItems="flex-start">
+        <Grid item xs={5}>
+          <ContentCard
             name="aKDPhi Website"
             createdDate="Jan. 2020"
             codedIn="React, SCSS"
             description="Mock website for sorority"
-            githubLink="/"
+            github="https://github.com"
           />
+        </Grid>
 
-          <Project 
+        <Grid item xs={5}>
+          <ContentCard 
             name="boof" 
             createdDate="Jan. 2021"
             codedIn="React"
             description="A game" 
-            githubLink="https://github.com/sylviaxliu/sylvieon"
+            github="https://github.com/sylviaxliu/sylvieon"
           />
-          
-          <Project
+        </Grid>
+
+        <Grid item xs={7}>
+          <ContentCard
             name="Airplane Reservation System"
             createdDate="Dec. 2019"
             codedIn="Java"
             description="this will be another project because i have more than two i've worked on yes"
-            githubLink="/"
+            github="/"
           />
-        </div>
+        </Grid>
+        </Grid>
 
       </Layout>
     )

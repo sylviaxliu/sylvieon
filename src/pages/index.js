@@ -10,19 +10,21 @@ export default function Home({ data }) {
   return (
     <Layout>
       <div class="titlePage">
-
         <Title>
           <div id="title">
             <span style={{ letterSpacing: `-0.1rem` }}> 
-              Hi<span id="accent">.</span> I'm Sylvia<span id="accent">.</span>
+              Hi, I'm Sylvia<span id="accent">.</span>
             </span>
 
             <div id="subtitle">
-              computer science student & coffee enthusiatist 
+              computer science student & coffee enthusiatist!
             </div>
-
+            
+            <Link href="/contact" id="button1">
+              <span class="text">hire me :)</span>
+            </Link>
             <Link href="/about" id="button1">
-              <span class="text">hire me</span>
+              <span class="text">or learn more</span>
             </Link>
           </div>
         </Title>

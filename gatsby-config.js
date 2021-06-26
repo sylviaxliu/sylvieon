@@ -5,7 +5,6 @@
  */
 
 module.exports = {
-  /*pathPrefix: "/sylvieon",*/
 
   siteMetadata: {
     title: `sylvia liu`,
@@ -33,5 +32,14 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
+    `gatsby-plugin-styled-components`,
   ],
 }

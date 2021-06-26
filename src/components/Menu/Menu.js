@@ -26,13 +26,13 @@ const Menu = ({ open }) => {
         <a href="/">
             <AttachFileIcon fontSize="small" />
         </a>
-        <a href="/">
+        <a href="sylviaxliu@yahoo.com">
             <MailOutlineIcon fontSize="small" />
         </a>
-        <a href="/">
+        <a href="https://www.linkedin.com/in/sylviaxliu/">
             <LinkedInIcon fontSize="small" />
         </a>
-        <a href="/">
+        <a href="https://github.com/sylviaxliu">
             <GitHubIcon fontSize="small" />
         </a>
       </div>

@@ -1,7 +1,8 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import "../styles/main.scss"
-import "../styles/navigation.scss"
+import MenuIcon from '@material-ui/icons/Menu';
+import SideNav from "../components/SideNav"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -12,16 +13,8 @@ const ListLink = props => (
 export default function Layout({ children }) {
     return (
         <div style={{ margin: `3rem auto`, minWidth: 150, maxWidth: 850, position: 'relative', }}>
-            <div id="navigation">
-              <Link id="homeLink" to="/" style={{ float: `left`}}>sylvia</Link>
-            <ul id="tabs" style={{ listStyle: `none`, float: `right` }}>
-                <ListLink to="/about">About</ListLink> 
-                <ListLink to="/projects">Projects</ListLink>
-                <ListLink to="/contact">Contact</ListLink>
-                <ListLink to="/design">reference page</ListLink>
 
-            </ul>
-            </div>
+            <SideNav />
 
             <div id="container">
               {children}

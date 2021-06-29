@@ -5,7 +5,12 @@ import SideNav from "../components/SideNav"
 
 export default function Layout({ children }) {
     return (
-        <div style={{ margin: `3rem auto`, minWidth: 150, maxWidth: 850, position: 'relative', }}>
+      <>
+
+    <head>
+      <title>Sylvia Liu</title>
+    </head>
+        <div>
 
             <SideNav />
 
@@ -13,6 +18,7 @@ export default function Layout({ children }) {
               {children}
             </div>
         </div>
+      </>
     )
 }
 

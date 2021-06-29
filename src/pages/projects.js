@@ -10,10 +10,6 @@ export default function Projects() {
     return (
       <Layout>
 
-        <Header>
-          projects<span id="accent">.</span> 
-        </Header>
-
         <Grid container spacing={2} alignItems="flex-start">
         <Grid item xs={5}>
           <ContentCard
@@ -45,7 +41,6 @@ export default function Projects() {
           />
         </Grid>
         </Grid>
-
       </Layout>
     )
 }

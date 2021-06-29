@@ -4,7 +4,8 @@ import "../../styles/main.scss"
 
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 50vh;
+  top: 50%;
+  transform: translatY(-50%);
   left: 2rem;
   display: flex;
   flex-direction: column;

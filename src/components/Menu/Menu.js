@@ -9,16 +9,16 @@ import AttachFileIcon from '@material-ui/icons/AttachFile';
 const Menu = ({ open }) => {
   return (
     <StyledMenu  open={open}>
-      <a href="/">
+      <a href="/#home">
         sylvia liu
       </a>
-      <a href="/about">
+      <a href="/#about">
         about
       </a>
       <a href="/projects">
         projects
         </a>
-      <a href="/contact">
+      <a href="/#contact">
         contact
         </a>
       

@@ -6,32 +6,36 @@ import Layout from "../components/layout"
 import Title from "../components/Title"
 import "../styles/main.scss"
 
+//import Projects from "./projects"
+
 export default function Home({ data }) {
   return (
+    <>
     <Layout>
-      <div class="titlePage">
-        <Title>
-          <div id="title">
-            <span style={{ letterSpacing: `-0.1rem` }}> 
-              Hi, I'm Sylvia<span id="accent">.</span>
-            </span>
+        <section id="home">
+          <div class="top-heading">Hi I'm <span class="green-span">Sylvia</span>! I code and drink coffee.</div>
+        </section>
+        <section id="about-transition">
+          <div class="about-heading">here's more about me though.</div>
+        </section>
+        <section id="about">
 
-            <div id="subtitle">
-              computer science student & coffee enthusiatist!
+        </section>
+
+        <section id="contact">
+          <div class="contact-heading">
+            what next?
+            <p class="subheading">get in touch!</p>
+            <div class="contact-info">
+              <p>Currently, I'm seeking software engineering internships for summer 2021.</p>
+              <p>Say hello <a href="sylviaxliu@yahoo.com" class="contact-link">via email</a> or <a href="" class="contact-link">download my resume</a></p>
+              <p>Talk to you soon!</p>
             </div>
-            
-            <Link href="/contact" id="button1">
-              <span class="text">hire me :)</span>
-            </Link>
-            <Link href="/about" id="button1">
-              <span class="text">or learn more</span>
-            </Link>
           </div>
-        </Title>
-        
-
-      </div>
+        </section>
+      
     </Layout>
+    </>
     )
 }
 

@@ -16,11 +16,12 @@ export default function Home({ data }) {
           <div class="top-heading">Hi I'm <span class="green-span">Sylvia</span>! I code and drink coffee.</div>
         </section>
         <section id="about-transition">
-          <div class="about-heading">here's more about me though.</div>
+          <div class="about-heading">here's some things i've made.</div>
         </section>
-        <section id="about">
 
-        </section>
+        <section id="projects-transition">projects</section>
+
+        <section id="experience-transition">experience</section>
 
         <section id="contact">
           <div class="contact-heading">

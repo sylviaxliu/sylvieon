@@ -1,15 +1,16 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
 import "../styles/main.scss"
 import SideNav from "../components/SideNav"
+import { Helmet } from "react-helmet"
 
 export default function Layout({ children }) {
     return (
       <>
 
-    <head>
-      <title>Sylvia Liu</title>
-    </head>
+        <Helmet>
+          <title>sylvialiu.dev</title>
+          <link rel="icon" href="../static/favicon.ico" />
+        </Helmet>
         <div>
 
             <SideNav />
@@ -21,13 +22,3 @@ export default function Layout({ children }) {
       </>
     )
 }
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
